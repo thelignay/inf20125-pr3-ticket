@@ -15,7 +15,7 @@ int main(void)
         return 1;
     }
 
-    hojas_disponibles = hojas_iniciales + hojas_cargadas + hojas_utilizadas;
+    hojas_disponibles = hojas_iniciales + hojas_cargadas - hojas_utilizadas;
 
     printf("Hojas disponibles: %d\n", hojas_disponibles);
     return 0;
